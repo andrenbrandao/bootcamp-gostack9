@@ -1,0 +1,29 @@
+#post-list .author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#post-list .author-info img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#post-list .author-info .post-data {
+  display: flex;
+  flex-direction: column;
+}
+
+#post-list .author-info .post-data .date {
+  color: #777;
+}
+
+ul.comment-list {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.post-content {
+  white-space: pre-line;
+}
